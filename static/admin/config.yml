@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: benyou1969/portfolio
 
 media_folder: static/assets
 public_folder: assets
