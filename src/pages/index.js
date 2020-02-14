@@ -15,10 +15,10 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`benyoucef mansour`, `benyou`, `benyous`, `benyou1969`]}
         />
-        <img style={{ margin: 0, borderRadius: `20px` }} src="./ben.jpg" alt="My picture" />
+        <img style={{ margin: 0, borderRadius: `20px` }} src="./ben.jpg" alt="Benyou's pic"/>
         <h1>
           Hey people{" "}
-          <span role="img" aria-label="wave emoji">
+          <span role="img" aria-label="wave">
             👋
           </span>
         </h1>
@@ -27,7 +27,10 @@ class IndexPage extends React.Component {
           My name is <b>Benyoucef, Mansour</b> but people usually call me <b title="and I like it">Benyou</b>, I was born in <s>1969</s> Oops I mean august 1998, in Algeria(Africa)👀</p>
         <p>I also write posts in my blog, take a look</p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog✨</Button>
+          <Button marginTop="35px">Go to Blog
+          <span role="img" aria-label="Sparkles">
+            ✨
+          </span></Button>
         </Link>
       </Layout>
     )
