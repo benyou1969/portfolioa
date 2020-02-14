@@ -26,12 +26,20 @@ class IndexPage extends React.Component {
         <p>
           My name is <b>Benyoucef, Mansour</b> but people usually call me <b title="and I like it">Benyou</b>, I was born in <s>1969</s> Oops I mean august 1998, in Algeria(Africa)👀</p>
         <p>I also write posts in my blog, take a look</p>
+        <div className="inline-buttons" style={{display: `flex`,justifyContent: `space-between`}}>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog
           <span role="img" aria-label="Sparkles">
             ✨
           </span></Button>
         </Link>
+        <Link to="/about" className="about-btn">
+          <Button marginTop="35px">About Me
+          <span role="img" aria-label="Sparkles">
+            ✨
+          </span></Button>
+        </Link>
+        </div>
       </Layout>
     )
   }

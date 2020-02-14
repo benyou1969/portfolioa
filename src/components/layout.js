@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-
+import './style.css'
 import { rhythm, scale } from "../utils/typography"
+import DarkModeToggle from './dark/DarkModeToggle';
+import Content from './dark/Content';
+import './dark/style.css';
 
 class Layout extends React.Component {
   render() {
@@ -55,6 +58,9 @@ class Layout extends React.Component {
     }
     return (
       <Wrapper>
+      <div className="navbar">
+        <DarkModeToggle />
+      </div>
         <div
           style={{
             marginLeft: `auto`,
@@ -86,3 +92,5 @@ const Footer = styled.footer`
 `
 
 export default Layout
+
+
