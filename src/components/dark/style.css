@@ -54,6 +54,9 @@ body.dark-mode .dark-mode-toggle>button:last-child {
 
 .content img {
       width: 100%;
+      border-radius: 3px;
+      box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 1);
+      margin: 10px 0 10px 0;
 }
 
 .content code {
@@ -75,7 +78,9 @@ body.dark-mode .dark-mode-toggle>button:last-child {
       font-size: 1em;
       padding: 0;
 }
-
+.content iframe{
+      margin: 10px 0 10px 0;
+}
 body.dark-mode .content code {
       background-color: #1b2938;
 }

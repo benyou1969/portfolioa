@@ -4,7 +4,6 @@ import styled from "styled-components"
 import './style.css'
 import { rhythm, scale } from "../utils/typography"
 import DarkModeToggle from './dark/DarkModeToggle';
-import Content from './dark/Content';
 import './dark/style.css';
 
 class Layout extends React.Component {
