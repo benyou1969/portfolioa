@@ -79,7 +79,7 @@ body.dark-mode .dark-mode-toggle>button:last-child {
       padding: 0;
 }
 .content iframe{
-      margin: 10px 0 10px 0;
+      margin: 5px 0 5px 0;
 }
 body.dark-mode .content code {
       background-color: #1b2938;
