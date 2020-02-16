@@ -12,7 +12,7 @@ class NotFoundPage extends React.Component {
             return (
                   <Layout location={this.props.location} title={siteTitle}>
                         <SEO title="About Me" />
-                        <div className="content"></div>
+                        {/* <div className="content"></div> */}
                         
                               <h1>Who I AM?</h1>
                               <p>My name is Benyoucef Mansour known as <code>Benyou</code>, I was born and grew up in the same city <code>Blida</code>, I'm 21 year old, Love learning new things (e.g languages, science topics...). 

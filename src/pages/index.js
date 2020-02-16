@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`benyoucef mansour`, `benyou`, `benyous`, `benyou1969`]}
         />
-        <div className="space"></div>
+        {/* <div className="space"></div> */}
         <div className="container">
 
 
@@ -32,7 +32,7 @@ class IndexPage extends React.Component {
         <p>I also write posts in my blog, take a look</p>
         <div className="inline-buttons" style={{display: `flex`,justifyContent: `space-between`}}>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog
+          <Button marginTop="35px" marginLeft="10px">Go to Blog
           <span role="img" aria-label="Sparkles">
             ✨
           </span></Button>
