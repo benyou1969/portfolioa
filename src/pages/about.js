@@ -43,7 +43,7 @@ class NotFoundPage extends React.Component {
                               <h2>Sport</h2>
                               In the last few year I started go jogging twice to thrice a week <br/>
                               {/* <iframe  height='100%' title="strava's data activity" width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46284026/activity-summary/d0a46c0fb411b5e43feca3adeb31038617b76fad'></iframe>                               */}
-                        <iframe loading="lazy" height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46284026/latest-rides/d0a46c0fb411b5e43feca3adeb31038617b76fad'></iframe>
+                        <iframe title="data activity from my account on Strava" loading="lazy" height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46284026/latest-rides/d0a46c0fb411b5e43feca3adeb31038617b76fad'></iframe>
                   </Layout>
             )
       }

@@ -1,0 +1,25 @@
+
+.socials a {
+      display: block;
+      width: 30px;
+      opacity: .2;
+      transform: scale(var(--scale, .8));
+      transition: transform .3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
+      margin-left: 1rem;
+      color:transparent !important;
+}
+
+.socials a:hover {
+      --scale: 1;
+}
+
+.social-icons {
+      fill: white
+}
+.socials {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: static;
+      text-align: center;
+}

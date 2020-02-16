@@ -5,6 +5,7 @@ import './style.css'
 import { rhythm, scale } from "../utils/typography"
 import DarkModeToggle from './dark/DarkModeToggle';
 import './dark/style.css';
+import Social from './social';
 
 class Layout extends React.Component {
   render() {
@@ -72,9 +73,7 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          &copy;  {
-            new Date().getFullYear()
-          }
+          <Social />
         </Footer>
       </Wrapper>
     )
