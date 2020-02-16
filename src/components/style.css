@@ -5,6 +5,21 @@ body.light-mode {
 }
 
 body.dark-mode {
-      background-color: #1a1919;
+      background-color: #1a1919 !important;
       color: #999;
+}
+
+/* Animations */
+
+
+/* Global */
+html {
+      height: 100%;
+      overflow:scroll;
+}
+
+body {
+      /* background-color: #10171d; */
+      
+      height: 100%;
 }

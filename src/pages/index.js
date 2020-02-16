@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
-
+import './index.css'
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "Benyoucef Mansour"
@@ -15,6 +15,10 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`benyoucef mansour`, `benyou`, `benyous`, `benyou1969`]}
         />
+        <div className="space"></div>
+        <div className="container">
+
+
         <img style={{ margin: 0, borderRadius: `20px` }} src="./ben.jpg" alt="Benyou's pic"/>
         <h1>
           Hey people{" "}
@@ -39,6 +43,7 @@ class IndexPage extends React.Component {
             ✨
           </span></Button>
         </Link>
+        </div>
         </div>
       </Layout>
     )
