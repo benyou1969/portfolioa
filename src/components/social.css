@@ -14,6 +14,9 @@
 }
 
 .social-icons {
+      fill: black;
+}
+body.dark-mode .social-icons {
       fill: white
 }
 .socials {

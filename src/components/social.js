@@ -3,9 +3,6 @@ import './social.css'
 const Social = () => {
       return (
             <div>
-                  <span style={{ color: 'white', opacity: '0.2' }}> &copy;  {
-                        new Date().getFullYear()
-                  }</span>
                   <div class="socials">
                         <a class="twitter" href="https://twitter.com/benyou1969" target="_blank" rel="noopener noreferrer" aria-label="link"><svg
                               xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72">
@@ -64,6 +61,9 @@ const Social = () => {
                         </a>
                   </div>
                   <dir>
+                  <span> &copy;  {
+                        new Date().getFullYear()
+                  }</span> |  
                         <span title="benyoudev@gmail.com">Email <a href="mailto:benyoudev@gmail.com">me</a>?</span>
                   </dir>
             </div>
