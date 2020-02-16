@@ -37,7 +37,7 @@ class IndexPage extends React.Component {
             ✨
           </span></Button>
         </Link>
-        <Link to="/about" className="about-btn">
+        <Link to="/about">
           <Button marginTop="35px">About Me
           <span role="img" aria-label="Sparkles">
             ✨
