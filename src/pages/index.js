@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`benyoucef mansour`, `benyou`, `benyous`, `benyou1969`]}
         />
-        {/* <div className="space"></div> */}
+        <div className="space"></div>
         <div className="container">
 
 

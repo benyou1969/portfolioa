@@ -1,3 +1,4 @@
+ @media only screen and (min-width: 800px) {
  html {
        overflow: hidden;
  }
@@ -9,13 +10,9 @@
        -webkit-overflow: scroll;
        -webkit-overflow-scrolling: touch;
        overscroll-behavior: contain;
-
-       /* overflow-x: hidden; */
-       /* overflow-y: scroll !important; */
  }
 
- /* Space */
- .space {
+ .dark-mode .space {
        position: absolute;
        z-index: -100;
        width: 400vh;
@@ -40,13 +37,4 @@
              transform: rotate(360deg);
        }
  }
-
-
- @media only screen and (min-height: 880px) {
-       body {
-             border: 1px solid red;
-             height: 100% !important;
-             width: 100% !important;
-             /* overscroll-behavior: contain; */
-       }
- }
+}
