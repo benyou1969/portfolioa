@@ -1,10 +1,9 @@
- @media only screen and (min-width: 800px) {
+ @media only screen and (min-width: 1000px) {
  html {
        overflow: hidden;
  }
 
  body {
-       background-color: #111 !important;
        max-width: 100% !important;
        overflow: scroll;
        -webkit-overflow: scroll;
