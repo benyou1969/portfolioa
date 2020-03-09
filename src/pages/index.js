@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
         <div className="container">
 
 
-        <img style={{ margin: 0, borderRadius: `20px` }} src="./ben.jpg" alt="Benyou's pic"/>
+        <img style={{ margin: 0, borderRadius: `20px` }} src="./ben.jpg" alt="Benyou's pic" className="pulse"/>
         <h1>
           Hey people{" "}
           <span role="img" aria-label="wave">
