@@ -59,7 +59,7 @@ class Layout extends React.Component {
     return (
       <Wrapper>
       <div className="navbar">
-        <DarkModeToggle render={ console.log("%c Have you anything yet 🤔", "color:blue; font-size:50px")}/>
+        <DarkModeToggle render={ console.log("%c Have you found anything yet 🤔", "color:blue; font-size:50px")}/>
       </div>
         <div
           style={{
