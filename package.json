@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "portfolio",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "Personal website, has a blog and stories about my life, ",
   "version": "1.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "Benyoucef Mansour",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -47,15 +47,15 @@
     "gatsby-plugin-feed": "^2.3.27",
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://benyou.netlify.com/",
   "keywords": [
-    "gatsby"
+    "gatsby", "benyou"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/benyou1969/portfolio.git"
   },
   "scripts": {
     "build": "gatsby build",
