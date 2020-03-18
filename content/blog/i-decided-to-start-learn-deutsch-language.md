@@ -9,3 +9,5 @@ description: >-
 Hey everyone, I always wanted to learn new language, and in the last five months was thinking to choose German language, but it isn't easy get started with.
 
 So in this blog, I l'll share technics, methods, resources that would help me reach my goal quickly.
+
+Go to first lesson: [Greetings](/deutsch/greetings)
