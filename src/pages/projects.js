@@ -19,6 +19,11 @@ class IndexPage extends React.Component {
                         <div>
                         <h3>Projects</h3>
                         <p>Here's some of the open source and private projects I have been contributing to</p>
+                       
+                       
+                       
+                       
+                       {/* footer  */}
                         </div>
                               <div className="inline-buttons footer" style={{ display: `flex`, justifyContent: `space-between` }}>
                                     <Link to="/blog/">
