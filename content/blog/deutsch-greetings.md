@@ -10,7 +10,7 @@ In my opinion first thing we should learn is greetings.
 
 **Guten Tag!, Hallo =** _Hello!._
 
-<--=====-->
+![](/assets/npc-communist-socialist-brainwashed-drones.png)
 
 **Guten morgen!** => _Good morning!._
 
@@ -18,7 +18,7 @@ In my opinion first thing we should learn is greetings.
 
 **Guten Nacht!** = _Good night!._
 
-<--=====-->
+![](/assets/npc-meme-computerspiele-identität-pepe_the_frog.jpg)
 
 Not sure about this one
 
@@ -30,9 +30,13 @@ informal: _Tschüss_
 
 ]
 
+![](/assets/images.jpeg)
+
 **Bis später** => _See you later!_
 
 **Bis morgen** => _See you tomorrow!_
+
+for pronunciation watch this [video](https://www.youtube.com/watch?v=aZJhkghsWGM).
 
 voila, we've finish the first lesson
 
