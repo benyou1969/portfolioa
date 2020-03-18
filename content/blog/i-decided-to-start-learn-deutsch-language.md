@@ -10,4 +10,23 @@ Hey everyone, I always wanted to learn new language, and in the last five months
 
 So in this blog, I l'll share technics, methods, resources that would help me reach my goal quickly.
 
+* Write everything you learned 
+* Speak loudly
+* Practice the language with your friends family, even if they don't understand what you're saying.
+* Start recording yourself with and rewatch video, (repeat sentence until you get it right
+
+## App
+
+[linguee](https://www.linguee.com/english-german/) :  is a web service that provides an online dictionary for a number of language pairs.
+
+and in our situation we will use `English to Deutsch`, and the opposite.
+
+![Linguee](/assets/screenshot-at-mar-18-11-13-32.png "Linguee is a web service that provides an online dictionary for a number of language pairs.")
+
+Duolingo:  is an American platform that includes a language-learning website and mobile app, so you can track your learning progress.
+
+![Duolingo](/assets/screenshot-at-mar-18-11-18-23.png "is an American platform that includes a language-learning website and mobile app")
+
+ 
+
 Go to first lesson: [Greetings](/blog/deutsch/greetings)
