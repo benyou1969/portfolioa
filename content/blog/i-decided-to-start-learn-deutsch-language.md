@@ -1,5 +1,5 @@
 ---
-path: /blog/deutsch
+path: /blog/deutsch-greetings/
 date: 2020-03-18T09:27:19.480Z
 title: I decided To start learn Deutsch language
 description: >-
