@@ -24,9 +24,9 @@ Not sure about this one
 
 _Goodbye_! = [
 
-formal: _Auf Wiedersehen!_
+formal: **Auf Wiedersehen!**
 
-informal: _Tschüss_
+informal: **Tschüss**
 
 ]
 
