@@ -10,4 +10,4 @@ Hey everyone, I always wanted to learn new language, and in the last five months
 
 So in this blog, I l'll share technics, methods, resources that would help me reach my goal quickly.
 
-Go to first lesson: [Greetings](/deutsch/greetings)
+Go to first lesson: [Greetings](/blog/deutsch/greetings)
