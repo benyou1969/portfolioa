@@ -23,10 +23,8 @@ and in our situation we will use `English to Deutsch`, and the opposite.
 
 ![Linguee](/assets/screenshot-at-mar-18-11-13-32.png "Linguee is a web service that provides an online dictionary for a number of language pairs.")
 
-Duolingo:  is an American platform that includes a language-learning website and mobile app, so you can track your learning progress.
+[Duolingo](https://www.duolingo.com):  is an American platform that includes a language-learning website and mobile app, so you can track your learning progress.
 
 ![Duolingo](/assets/screenshot-at-mar-18-11-18-23.png "is an American platform that includes a language-learning website and mobile app")
-
- 
 
 Go to first lesson: [Greetings](/blog/deutsch/greetings)
