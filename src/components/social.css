@@ -1,28 +1,44 @@
-
-.socials a {
-      display: block;
-      width: 30px;
-      opacity: .2;
-      transform: scale(var(--scale, .8));
-      transition: transform .3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
-      margin-left: 1rem;
-      color:transparent !important;
+.bg-gradient-orange {
+      background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
+      background: linear-gradient(to right, #f12711, #f5af19);
 }
 
-.socials a:hover {
-      --scale: 1;
+.bg-gradient-black {
+      background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 1)), to(rgba(37, 37, 37, 1)));
+      background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(37, 37, 37, 1) 100%);
 }
 
-.social-icons {
-      fill: black;
+.bg-gradient-blue {
+      background: -webkit-gradient(linear, left top, right top, from(#0083B0), to(#00B4DB));
+      background: linear-gradient(to right, #0083B0, #00B4DB);
 }
-body.dark-mode .social-icons {
-      fill: white
+
+.bg-gradient-pink {
+      background: -webkit-gradient(linear, left top, right top, from(#F27121), color-stop(#E94057), to(#8A2387));
+      background: linear-gradient(to right, #F27121, #E94057, #8A2387);
 }
-.socials {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      position: static;
-      text-align: center;
+
+.bg-gradient-turquoise {
+      background: -webkit-gradient(linear, left top, right top, from(#136a8a), to(#267871));
+      background: linear-gradient(to right, #136a8a, #267871);
+}
+
+.bg-gradient-red {
+      background: -webkit-gradient(linear, left top, right top, from(#e33e2f), to(#265778));
+      background: linear-gradient(to right, #e33e2f, #265778);
+}
+
+.bg-gradient-strawberry {
+      background: -webkit-gradient(linear, left top, right top, from(#070302), to(#db4437));
+      background: linear-gradient(to bottom, #ff0101, #db4437);
+}
+
+.bg-gradient-gray {
+      background: -webkit-gradient(linear, left top, right top, from(#070302), to(#4a4d58));
+      background: linear-gradient(to bottom, #070302, #4a4d58);
+}
+
+.social-item:focus {
+      box-shadow: 0 0 0 0.2em rgb(8, 187, 121);
+      outline: none;
 }

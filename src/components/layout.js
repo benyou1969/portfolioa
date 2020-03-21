@@ -58,9 +58,9 @@ class Layout extends React.Component {
     }
     return (
       <Wrapper>
-      <div className="navbar">
-        <DarkModeToggle/>
-      </div>
+        <div className="navbar">
+          <DarkModeToggle />
+        </div>
         <div
           style={{
             marginLeft: `auto`,
@@ -71,10 +71,9 @@ class Layout extends React.Component {
         >
           <header>{header}</header>
           <main>{children}</main>
-        </div>
-        <Footer>
           <Social />
-        </Footer>
+        </div>
+        <Footer>{/* <Social /> */}</Footer>
       </Wrapper>
     )
   }
