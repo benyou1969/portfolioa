@@ -1,8 +1,10 @@
 import React from 'react'
 import './social.css'
+import "./tailwind.css"
 const Social = () => {
       return (
             <div>
+            <p className="text-blue-400 bg-green-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi atque id veritatis ullam quibusdam quam fugiat quasi saepe neque, blanditiis cupiditate dolorum aut molestiae similique architecto dicta laudantium soluta.</p>
                   <div className="socials">
                         <a className="twitter" href="https://twitter.com/benyou1969" target="_blank" rel="noopener noreferrer" aria-label="link"><svg
                               xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72">
