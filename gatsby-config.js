@@ -80,13 +80,6 @@ module.exports = {
         icon: `content/assets/avatar.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -100,5 +93,11 @@ module.exports = {
       },
     },
     "gatsby-plugin-svgr",
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
   ],
 }

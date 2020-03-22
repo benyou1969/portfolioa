@@ -2,7 +2,6 @@
       background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
       background: linear-gradient(to right, #f12711, #f5af19);
 }
-
 .bg-gradient-black {
       background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 1)), to(rgba(37, 37, 37, 1)));
       background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(37, 37, 37, 1) 100%);
@@ -37,6 +36,7 @@
       background: -webkit-gradient(linear, left top, right top, from(#070302), to(#4a4d58));
       background: linear-gradient(to bottom, #070302, #4a4d58);
 }
+
 
 .social-item:focus {
       box-shadow: 0 0 0 0.2em rgb(8, 187, 121);

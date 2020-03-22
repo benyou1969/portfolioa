@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import './style.css'
-import { rhythm, scale } from "../utils/typography"
 import DarkModeToggle from './dark/DarkModeToggle';
+import "./tailwind.css"
+import { rhythm, scale } from "../utils/typography"
+import './style.css'
 import './dark/style.css';
-import Social from './social';
 
 class Layout extends React.Component {
   render() {
@@ -19,8 +19,8 @@ class Layout extends React.Component {
         <h1
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            marginBottom: `${rhythm(1.5)} !important`,
+            marginTop: `0 !important`,
           }}
         >
           <Link
@@ -71,9 +71,7 @@ class Layout extends React.Component {
         >
           <header>{header}</header>
           <main>{children}</main>
-          <Social />
         </div>
-        <Footer>{/* <Social /> */}</Footer>
       </Wrapper>
     )
   }
@@ -81,11 +79,6 @@ class Layout extends React.Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
-`
-
-const Footer = styled.footer`
-  text-align: center;
-  margin: 24px;
 `
 
 export default Layout

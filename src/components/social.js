@@ -1,7 +1,5 @@
 import React from "react"
 import Tilt from "react-tilt"
-import "./social.css"
-import "./tailwind.css"
 import { ReactComponent as StackOverFlowSVG } from "./svgs/stackoverflow.svg"
 import { ReactComponent as GithubSVG } from "./svgs/github.svg"
 import { ReactComponent as InstagramSVG } from "./svgs/instagram.svg"
@@ -11,36 +9,47 @@ import { ReactComponent as DevToSVG } from "./svgs/devto.svg"
 import { ReactComponent as YoutubeSVG } from "./svgs/youtube.svg"
 import { ReactComponent as CodesandboxSVG } from "./svgs/codesandbox.svg"
 import { ReactComponent as CodepenSVG } from "./svgs/codepen.svg"
+import "./social.css"
+
 function SocialLink(props) {
   return (
-    <div className="social-item w-full md:w-1/2 xl:w-1/3 px-2 py-2">
-      <a
-        href={props.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="link"
-      >
-        <Tilt
-          className={`Tilt bg-gradient-${props.backgroundGradient} p-5 h-full rounded items-center text-white shadow-lg flex items-center`}
-          options={{
-            max: 13,
-            scale: 1.01,
-            transition: true,
-            easing: "cubic-bezier(.03,.98,.52,.99)",
-          }}
+    <>
+      <div className="social-item w-full md:w-1/2 xl:w-1/3 px-2 py-2">
+        {/* <div className="social-item w-full md:w-1/2 xl:w-1/3  px-2 py-2"> */}
+        <a
+          href={props.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="link"
         >
-          <div className="flex Tilt-inner items-center">
-            <span>{props.svg}</span>
-            <div className="ml-4">
-              <h1 className="sm:text-md font-bold leading-snug">
-                {props.title}
-              </h1>
-              <p className="leading-snug tracking-tight">{props.description}</p>
+          <Tilt
+            className={`Tilt bg-gradient-${props.backgroundGradient}  p-4 h-full rounded items-center text-white shadow-lg flex items-center`}
+            options={{
+              max: 13,
+              scale: 1.01,
+              transition: true,
+              easing: "cubic-bezier(.03,.98,.52,.99)",
+            }}
+          >
+            <div className="flex Tilt-inner items-center">
+              <span>{props.svg}</span>
+              <div className="ml-4">
+                <h1
+                  className="sm:text-md font-bold leading-snug"
+                  style={{ fontSize: `inherit`, margin: 0 }}
+                >
+                  {props.title}
+                </h1>
+                <p style={{    marginBottom: `0rem`}} className="leading-snug tracking-tight ">
+                  {props.description}
+                </p>
+              </div>
             </div>
-          </div>
-        </Tilt>
-      </a>
-    </div>
+          </Tilt>
+        </a>
+        {/* </div> */}
+      </div>
+    </>
   )
 }
 
@@ -59,11 +68,11 @@ const Social = () => {
       <div className="mt-8 md:mt-16">
         <div className="flex flex-wrap -mx-4 mt-2 items-stretch">
           <SocialLink
-            title="Stackoverflow"
-            description="Still don't have enough reputation"
-            svg={StackOverFlowComponent}
-            url="https://stackoverflow.com/users/11041883/ben96"
-            backgroundGradient="orange"
+            title="Mail"
+            description="Send an email"
+            svg={MailComponent}
+            url="mailto:benyoudev@gmail.com"
+            backgroundGradient="red"
           />
           <SocialLink
             title="Twitter"
@@ -80,11 +89,11 @@ const Social = () => {
             backgroundGradient="black"
           />
           <SocialLink
-            title="Mail"
-            description="Send an email"
-            svg={MailComponent}
-            url="mailto:benyoudev@gmail.com"
-            backgroundGradient="red"
+            title="YouTube"
+            description="Video, vlogs, parties..."
+            svg={YoutubeComponent}
+            url="https://www.youtube.com/channel/UCN28e9psrZkL4uekh3G_pkg"
+            backgroundGradient="strawberry"
           />
           <SocialLink
             title="Instagram"
@@ -100,12 +109,13 @@ const Social = () => {
             url="https://dev.to/benyou1969"
             backgroundGradient="blue"
           />
+
           <SocialLink
-            title="YouTube"
-            description="Video, vlogs, parties..."
-            svg={YoutubeComponent}
-            url="https://www.youtube.com/channel/UCN28e9psrZkL4uekh3G_pkg"
-            backgroundGradient="strawberry"
+            title="Stackoverflow"
+            description="Still don't have enough reputation"
+            svg={StackOverFlowComponent}
+            url="https://stackoverflow.com/users/11041883/ben96"
+            backgroundGradient="orange"
           />
           <SocialLink
             title="Snad Box"
@@ -123,7 +133,6 @@ const Social = () => {
           />
         </div>
       </div>
-     
     </div>
   )
 }
