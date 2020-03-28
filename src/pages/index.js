@@ -66,7 +66,7 @@ class IndexPage extends React.Component {
             }}
             className="text-4xl"
           >
-            My name is <b>Benyoucef, Mansour</b> but people usually call me
+            My name is <b style={{color: `#ffd70d`}}>Benyoucef, Mansour</b> but people usually call me
             <b title="and I like it"> Benyou</b>, I was born in <s>1969</s> Oops
             I mean august 1998, in Algeria(Africa)👀
           </p>

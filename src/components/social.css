@@ -2,6 +2,10 @@
       background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
       background: linear-gradient(to right, #f12711, #f5af19);
 }
+.bg-gradient-reverse-orange {
+      background: -webkit-gradient(linear, left top, right top, from(#f5af19), to(#f12711));
+      background: linear-gradient(to right, #f5af19, #f12711);
+}
 .bg-gradient-black {
       background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 1)), to(rgba(37, 37, 37, 1)));
       background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(37, 37, 37, 1) 100%);

@@ -9,12 +9,13 @@ import { ReactComponent as DevToSVG } from "./svgs/devto.svg"
 import { ReactComponent as YoutubeSVG } from "./svgs/youtube.svg"
 import { ReactComponent as CodesandboxSVG } from "./svgs/codesandbox.svg"
 import { ReactComponent as CodepenSVG } from "./svgs/codepen.svg"
+import { ReactComponent as StravaSVG } from "./svgs/strava.svg"
 import "./social.css"
 
 function SocialLink(props) {
   return (
     <>
-      <div className="social-item w-full md:w-1/2 xl:w-1/3 px-2 py-2">
+      <div className={`social-item w-full md:w-1/2 xl:w-1/3 px-2 py-2 ${props.width}`}>
         {/* <div className="social-item w-full md:w-1/2 xl:w-1/3  px-2 py-2"> */}
         <a
           href={props.url}
@@ -62,6 +63,7 @@ const DevToComponent = <DevToSVG />
 const YoutubeComponent = <YoutubeSVG />
 const CodepenComponent = <CodepenSVG />
 const CodesendboxComponent = <CodesandboxSVG />
+const StravaComponent = <StravaSVG />
 const Social = () => {
   return (
     <div className="socials">
@@ -109,7 +111,6 @@ const Social = () => {
             url="https://dev.to/benyou1969"
             backgroundGradient="blue"
           />
-
           <SocialLink
             title="Stackoverflow"
             description="Still don't have enough reputation"
@@ -130,6 +131,15 @@ const Social = () => {
             svg={CodepenComponent}
             url="https://codepen.io/benyou1969"
             backgroundGradient="gray"
+          />
+          <SocialLink
+            title="Strava"
+            className="bg-red-300"
+            description="All my runs are recorded on Strava."
+            svg={StravaComponent}
+            url="https://codepen.io/benyou1969"
+            backgroundGradient="reverse-orange"
+            width="xl:w-full"
           />
         </div>
       </div>
